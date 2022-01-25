@@ -5,7 +5,7 @@ SELECT AVG(wage) AS gemiddeld_inkomen_van_alle_spelers FROM players
 -- Opdracht 3
 SELECT SUM(wage) AS som_van_fc_groningen FROM players WHERE club="FC Groningen"
 -- Opdracht 4
-
+SELECT COUNT(name) AS aantal_spelers FROM players WHERE club="Manchester City" OR club="Manchester United"
 -- Opdracht 5
 SELECT AVG(wage) AS gemiddeld_inkomen_nl FROM players WHERE nationality="Netherlands"
 -- Opdracht 6 
